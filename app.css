@@ -1,0 +1,18 @@
+/* use a for calling anchor*/
+a {
+  background-color: lightseagreen;
+  width: 300px;
+  height: 300px;
+  margin: 2em;
+  display: block;
+} /* inline-block * side by side, like inline *respects width and height, like block*/
+#container {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto; /*display: flex; flex-direction: column; /*border: 10 px solid red;*/
+}
+#container section /* used for calling on the "sections" within "container"*/ {
+  border: 2px solid red;
+  width: 400px; /*flex: 1; box-sizing: border-box;*/
+  /* display: inline; works inline but allows width and margin */
+}
